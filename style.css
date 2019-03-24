@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display:flex;
+    height: 200px;
+    width: 500px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button{
+position: relative;
+text-align:center;
+border-radius: 40px;
+height: 80px;
+width:200px;
+text-decoration: none;
+background-color: cornflowerblue;
+cursor: pointer;
+transition: .5s;
+box-shadow: 0 0 3px 1px black;
+}
+
+button:hover{
+transform: scale(1.05);
+box-shadow: 0 0 3px 2px black;
+background-color:rgb(39, 103, 240);
+    
+}
+
+span{
+    font-family: 'Indie Flower', cursive, sans-serif;
+    font-size: 30px;
+    margin-left: 70px;
+    font-weight: bold;
+}
+
+.fas  {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  font-size:50px;
+  background-color: black;
+  border-radius: 50%;
+  color:yellow;
+  border: 3px solid black;
+}
+
+.fa-grin-squint-tears{
+  transform-origin: 0% 50%;
+  transform: rotate(180deg);
+  transition: 1s;
+}
